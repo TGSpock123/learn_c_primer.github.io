@@ -1,0 +1,3 @@
+/Users/tgspock/Documents/C_primer/9_plus/9_plus/cmake-build-debug/CMakeFiles/9_plus.dir
+/Users/tgspock/Documents/C_primer/9_plus/9_plus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tgspock/Documents/C_primer/9_plus/9_plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
