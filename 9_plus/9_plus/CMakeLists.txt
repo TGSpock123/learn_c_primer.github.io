@@ -5,7 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
-add_executable(9_plus
-        9.35.c
-        9.35_36.h
-        9.36.c)
+add_executable(9_plus 9.30.c 9.31.c 9.30_31.h)

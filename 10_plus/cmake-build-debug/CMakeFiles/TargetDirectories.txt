@@ -1,0 +1,3 @@
+/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus/cmake-build-debug/CMakeFiles/10_plus.dir
+/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

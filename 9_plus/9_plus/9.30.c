@@ -9,20 +9,20 @@
 #include "9.30_31.h"
 int main (void)
 {
-    double q, w, e;
+    double q[M];
     
     printf ("Please printf 3 numbers, this programe will pair them (enter q to quit anytime): \n");
     printf ("Now the first one: \n");
-    while (scanf ("%lg", &q) == 1)
+    while (scanf ("%lf", &q[M - 3]) == 1)
     {
         printf ("Now the second one: \n");
-        if (scanf ("%lg", &w) == 1)
+        if (scanf ("%lf", &q[M - 2]) == 1)
         {
             printf ("Now the third one: \n");
-            if (scanf ("%lg", &e) == 1)
+            if (scanf ("%lf", &q[M - 1]) == 1)
             {
-                pair (&q, &w, &e);
-                printf ("%lg > %lg > %lg. \n", q, w, e);
+                pair (q, M);
+                printf ("%lf > %lf > %lf. \n", q[0], q[1], q[2]);
                 printf ("Please enter another three numbers (still q to quit): \n");
                 printf ("Now the first one: \n");
             }else

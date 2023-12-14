@@ -7,6 +7,7 @@
 
 #ifndef __30_31_h
 #define __30_31_h
-void pair (double * x, double * y, double *z);
+#define M 3
+void pair (double x[], int len);
 
 #endif /* __30_31_h */

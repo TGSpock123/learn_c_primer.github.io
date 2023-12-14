@@ -7,15 +7,22 @@
 
 #include <stdio.h>
 #include "9.30_31.h"
-void pair (double * x, double * y, double * z)
+void pair(double x[], int len)
 {
-    double a, b;
-    
-    b = (*x > *y) ? *x : *y;
-    *x = (*x > *y) ? *y : *x;
-    a = (b > *z) ? b : *z;
-    b = (b > *z) ? *z : b;
-    *x = (*x > *z) ? *z : *x;
-    *y = b;
-    *z = a;
+    int i, j;
+    double temp;
+    for (i = 0; i < len - 1; i++)
+    {
+        for (j = 0; j < len - 1; j++)
+        {
+            if (x[j] > x[j + 1])
+            {
+                temp = x[j];
+                x[j] = x[j + 1];
+                x[j + 1] = temp;
+            }
+        }
+    }
 }
+
+
