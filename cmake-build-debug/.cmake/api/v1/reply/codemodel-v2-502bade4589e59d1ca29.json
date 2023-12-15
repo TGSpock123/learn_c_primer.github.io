@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C_primer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C_primer-Debug-6e594e0cbfdcfed53b90.json",
+					"jsonFile" : "target-C_primer-Debug-90e17ebc17efde61c9dd.json",
 					"name" : "C_primer",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/tgspock/Documents/C_primer/cmake-build-debug",
-		"source" : "/Users/tgspock/Documents/C_primer"
+		"build" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug",
+		"source" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 6
 	}
 }

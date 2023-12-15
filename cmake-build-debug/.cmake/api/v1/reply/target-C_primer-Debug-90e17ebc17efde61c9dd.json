@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "10_plus"
+			"path" : "C_primer"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -24,6 +25,12 @@
 			{
 				"command" : 0,
 				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
 				"line" : 6,
 				"parent" : 0
 			}
@@ -35,18 +42,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics"
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/9"
 				}
 			],
 			"language" : "C",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
 			"sourceIndexes" : 
 			[
 				0,
@@ -54,7 +60,7 @@
 			]
 		}
 	],
-	"id" : "10_plus::@6890427a1f51a3e7e1df",
+	"id" : "C_primer::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -70,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "10_plus",
-	"nameOnDisk" : "10_plus",
+	"name" : "C_primer",
+	"nameOnDisk" : "C_primer",
 	"paths" : 
 	{
 		"build" : ".",
@@ -100,18 +106,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "10.7.c",
+			"path" : "10_plus/10.7.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "10.8.c",
+			"path" : "10_plus/10.8.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "10.7_8.h",
+			"path" : "10_plus/10.7_8.h",
 			"sourceGroupIndex" : 1
 		}
 	],

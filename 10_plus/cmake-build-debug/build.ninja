@@ -49,12 +49,6 @@ cmake_ninja_workdir = /Users/tgspock/Documents/GitHub/learn_c_primer.github.io/1
 
 build cmake_object_order_depends_target_10_plus: phony || CMakeFiles/10_plus.dir
 
-build CMakeFiles/10_plus.dir/10.7.c.o: C_COMPILER__10_plus_unscanned_Debug /Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus/10.7.c || cmake_object_order_depends_target_10_plus
-  DEP_FILE = CMakeFiles/10_plus.dir/10.7.c.o.d
-  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/10_plus.dir
-  OBJECT_FILE_DIR = CMakeFiles/10_plus.dir
-
 build CMakeFiles/10_plus.dir/10.8.c.o: C_COMPILER__10_plus_unscanned_Debug /Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus/10.8.c || cmake_object_order_depends_target_10_plus
   DEP_FILE = CMakeFiles/10_plus.dir/10.8.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
@@ -69,7 +63,7 @@ build CMakeFiles/10_plus.dir/10.8.c.o: C_COMPILER__10_plus_unscanned_Debug /User
 #############################################
 # Link the executable 10_plus
 
-build 10_plus: C_EXECUTABLE_LINKER__10_plus_Debug CMakeFiles/10_plus.dir/10.7.c.o CMakeFiles/10_plus.dir/10.8.c.o
+build 10_plus: C_EXECUTABLE_LINKER__10_plus_Debug CMakeFiles/10_plus.dir/10.8.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7
   OBJECT_DIR = CMakeFiles/10_plus.dir
   POST_BUILD = :
