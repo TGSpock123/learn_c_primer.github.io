@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "10_plus",
+					"name" : "C_primer",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "10_plus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-10_plus-Debug-ba98c6d6ec40d23a50bd.json",
-					"name" : "10_plus",
+					"id" : "C_primer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_primer-Debug-fe2f8957925620870bf8.json",
+					"name" : "C_primer",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus/cmake-build-debug",
-		"source" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus"
+		"build" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug",
+		"source" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io"
 	},
 	"version" : 
 	{

@@ -21,7 +21,7 @@ int main (void)
             printf ("Now the third one: \n");
             if (scanf ("%lf", &q[M - 1]) == 1)
             {
-                pair (q, M);
+                pair (&q[0], M);
                 printf ("%lf > %lf > %lf. \n", q[0], q[1], q[2]);
                 printf ("Please enter another three numbers (still q to quit): \n");
                 printf ("Now the first one: \n");
