@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(9)
 
 add_executable(C_primer
-        10_plus/10.26.c 10_plus/10.27.c
+        10_plus_2/10_plus_2/10.30.c
 )

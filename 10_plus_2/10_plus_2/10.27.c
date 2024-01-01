@@ -7,6 +7,14 @@ void sort (int * a, int *b)
     *a = *b;
     *b = temp;
 }
+void sort_2 (double * a, double * b)
+{
+    double temp;
+
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
 void bubble (int ar[], int n)
 {
     for (int i = 0; i < n - 1; i ++)
@@ -24,7 +32,7 @@ int max (const int ar [], int n)
 {
     int i = ar[0];
 
-    for (int q = 0; q < n - 1; q ++)
+    for (int q = 0; q < n; q ++)
     {
         if (i < ar[q])
         {
@@ -33,29 +41,29 @@ int max (const int ar [], int n)
     }
     return i;
 }
-double minus (double ar[], int n)
+double minus (const double ar[], int n)
 {
-    double i = ar[0];
+    double i = ar[0], j = ar[0];
 
-    for (int q = 0; q < n - 1; q ++)
+    for (int q = 0; q < n; q ++)
     {
         if (i < ar[q])
         {
             i = ar[q];
         }
-        if (ar[0] > ar[q])
+        if (j > ar[q])
         {
-            ar[0] = ar[q];
+            j = ar[q];
         }
     }
 
-    return (i - ar[0]);
+    return (i - j);
 }
 int maxm (const double ar[], int n)
 {
     int i = 0, p = 0;
 
-    for (double q = ar[0]; i < n - 1; i ++)
+    for (double q = ar[0]; i < n; i ++)
     {
         if (q < ar[i])
         {
@@ -65,4 +73,17 @@ int maxm (const double ar[], int n)
     }
 
     return p;
+}
+void bubble_opp (double ar[], int n)
+{
+    for (int i = 0; i < n - 1; i ++)
+    {
+        for (int j = 0; j < (n - i - 1); j ++)
+        {
+            if (ar[j] < ar[j + 1])
+            {
+                sort_2  (&ar[j], &ar[j + 1]);
+            }
+        }
+    }
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7A4DCA392B370C0A00B98E89"
+               BuildableName = "10_plus_2"
+               BlueprintName = "10_plus_2"
+               ReferencedContainer = "container:10_plus_2.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "YES"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES"
+      customWorkingDirectory = "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/10_plus_2">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7A4DCA392B370C0A00B98E89"
+            BuildableName = "10_plus_2"
+            BlueprintName = "10_plus_2"
+            ReferencedContainer = "container:10_plus_2.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
