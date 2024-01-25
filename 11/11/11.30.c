@@ -1,7 +1,6 @@
 #include "s_gets.h"
 #define SIZE 81
 #define LIM 20
-#define HALT ""
 
 void stsrt (char *strings[], int num)
 {
@@ -25,7 +24,7 @@ void stsrt (char *strings[], int num)
 int main (void)
 {
     char input[LIM][SIZE];
-    char *ptstr[LIM];
+    char * ptstr[LIM];
     int ct = 0;
     int k;
 
@@ -37,7 +36,7 @@ int main (void)
         ct ++;
     }
     stsrt (ptstr, ct);
-    puts ("\nHere's the sort list: \n");
+    puts ("Here's the sort list: \n");
     for (k = 0; k < ct; k ++)
     {
         puts (ptstr[k]);
