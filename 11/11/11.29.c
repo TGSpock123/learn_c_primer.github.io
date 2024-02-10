@@ -4,7 +4,7 @@ int main (void)
 {
     char ch1[40], ch2[40], q, *qwe;
     int i = 5;
-
+/*
     printf ("please enter ch1, strcpy wil make ch2: \n");
     s_gets (ch1, 40);
     printf ("1. %s\n", ch1);

@@ -1,19 +1,25 @@
 #include "s_gets.h"
 char * s_gets (char *st, int n)
 {
-    char * ret_val, * find;
+    char * ret_val;
 
     ret_val = fgets(st, n, stdin);
     if (ret_val)
     {
-        if (strchr (ret_val, '\n'))
+        while ((*st != '\n') && (*st))
         {
-            find = strchr (ret_val, '\n');
-            *find = '\0';
+            *st ++;
+        }
+        if (*st == '\n')
+        {
+            *st = '\0';
         }else
         {
             while ((getchar() == '\n') == 0);
         }
+    }else
+    {
+        ret_val = "No result. \n";
     }
 
     return ret_val;
