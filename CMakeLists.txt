@@ -7,5 +7,5 @@ include_directories(9)
 
 add_executable(
         C_primer
-        12/12.8.c 12/12.9.c
+        12/12.12.c 12/12.13.c
 )

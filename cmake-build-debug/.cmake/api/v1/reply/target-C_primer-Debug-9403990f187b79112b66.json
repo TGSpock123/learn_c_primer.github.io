@@ -99,13 +99,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "12/12.8.c",
+			"path" : "12/12.12.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "12/12.9.c",
+			"path" : "12/12.13.c",
 			"sourceGroupIndex" : 0
 		}
 	],
