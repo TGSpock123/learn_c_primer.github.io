@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.17"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C_primer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C_primer-Debug-9403990f187b79112b66.json",
+					"jsonFile" : "target-C_primer-Debug-6227fc6b0a9c9c3b1206.json",
 					"name" : "C_primer",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug",
-		"source" : "/Users/tgspock/Documents/GitHub/learn_c_primer.github.io"
+		"build" : "C:/Users/Microsoft/OneDrive/Documents/Github/learn_c_primer.github.io/cmake-build-debug",
+		"source" : "C:/Users/Microsoft/OneDrive/Documents/Github/learn_c_primer.github.io"
 	},
 	"version" : 
 	{

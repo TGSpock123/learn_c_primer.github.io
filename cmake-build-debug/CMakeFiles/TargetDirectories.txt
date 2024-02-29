@@ -1,3 +1,3 @@
-/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug/CMakeFiles/C_primer.dir
-/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/tgspock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Microsoft/OneDrive/Documents/Github/learn_c_primer.github.io/cmake-build-debug/CMakeFiles/C_primer.dir
+C:/Users/Microsoft/OneDrive/Documents/Github/learn_c_primer.github.io/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Microsoft/OneDrive/Documents/Github/learn_c_primer.github.io/cmake-build-debug/CMakeFiles/rebuild_cache.dir
