@@ -128,53 +128,53 @@ C_primer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/build
 .PHONY : C_primer/fast
 
-12/12.12.obj: 12/12.12.c.obj
-.PHONY : 12/12.12.obj
+12/12.25.obj: 12/12.25.c.obj
+.PHONY : 12/12.25.obj
 
 # target to build an object file
-12/12.12.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.12.c.obj
-.PHONY : 12/12.12.c.obj
+12/12.25.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.25.c.obj
+.PHONY : 12/12.25.c.obj
 
-12/12.12.i: 12/12.12.c.i
-.PHONY : 12/12.12.i
+12/12.25.i: 12/12.25.c.i
+.PHONY : 12/12.25.i
 
 # target to preprocess a source file
-12/12.12.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.12.c.i
-.PHONY : 12/12.12.c.i
+12/12.25.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.25.c.i
+.PHONY : 12/12.25.c.i
 
-12/12.12.s: 12/12.12.c.s
-.PHONY : 12/12.12.s
+12/12.25.s: 12/12.25.c.s
+.PHONY : 12/12.25.s
 
 # target to generate assembly for a file
-12/12.12.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.12.c.s
-.PHONY : 12/12.12.c.s
+12/12.25.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.25.c.s
+.PHONY : 12/12.25.c.s
 
-12/12.13.obj: 12/12.13.c.obj
-.PHONY : 12/12.13.obj
+12/s_gets.obj: 12/s_gets.c.obj
+.PHONY : 12/s_gets.obj
 
 # target to build an object file
-12/12.13.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.13.c.obj
-.PHONY : 12/12.13.c.obj
+12/s_gets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/s_gets.c.obj
+.PHONY : 12/s_gets.c.obj
 
-12/12.13.i: 12/12.13.c.i
-.PHONY : 12/12.13.i
+12/s_gets.i: 12/s_gets.c.i
+.PHONY : 12/s_gets.i
 
 # target to preprocess a source file
-12/12.13.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.13.c.i
-.PHONY : 12/12.13.c.i
+12/s_gets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/s_gets.c.i
+.PHONY : 12/s_gets.c.i
 
-12/12.13.s: 12/12.13.c.s
-.PHONY : 12/12.13.s
+12/s_gets.s: 12/s_gets.c.s
+.PHONY : 12/s_gets.s
 
 # target to generate assembly for a file
-12/12.13.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.13.c.s
-.PHONY : 12/12.13.c.s
+12/s_gets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/s_gets.c.s
+.PHONY : 12/s_gets.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_primer
-	@echo ... 12/12.12.obj
-	@echo ... 12/12.12.i
-	@echo ... 12/12.12.s
-	@echo ... 12/12.13.obj
-	@echo ... 12/12.13.i
-	@echo ... 12/12.13.s
+	@echo ... 12/12.25.obj
+	@echo ... 12/12.25.i
+	@echo ... 12/12.25.s
+	@echo ... 12/s_gets.obj
+	@echo ... 12/s_gets.i
+	@echo ... 12/s_gets.s
 .PHONY : help
 
 

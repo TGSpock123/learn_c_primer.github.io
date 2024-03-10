@@ -1,6 +1,5 @@
-CMakeFiles/C_primer.dir/12/12.13.c.obj: \
- C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\12\12.13.c \
- C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\12\12.13_23.h \
+CMakeFiles/C_primer.dir/12/12.21.c.obj: \
+ C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\12\12.21.c \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \

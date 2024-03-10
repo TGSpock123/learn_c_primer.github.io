@@ -1,4 +1,5 @@
-#include "12.12_13.h"
+#include "12.13_23.h"
+int roll_count;
 static int rollem (int sides)
 {
     int roll;
