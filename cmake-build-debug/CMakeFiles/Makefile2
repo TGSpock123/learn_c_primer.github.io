@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io
+CMAKE_SOURCE_DIR = C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/C_primer.dir/clean
 CMakeFiles/C_primer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target C_primer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C_primer"
 .PHONY : CMakeFiles/C_primer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C_primer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C_primer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/C_primer.dir/rule
 
 # Convenience name for target.

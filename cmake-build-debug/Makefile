@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io
+CMAKE_SOURCE_DIR = C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug\CMakeFiles C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Microsoft\OneDrive\Documents\Github\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,53 +128,29 @@ C_primer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/build
 .PHONY : C_primer/fast
 
-12/12.25.obj: 12/12.25.c.obj
-.PHONY : 12/12.25.obj
+13/13.4.obj: 13/13.4.c.obj
+.PHONY : 13/13.4.obj
 
 # target to build an object file
-12/12.25.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.25.c.obj
-.PHONY : 12/12.25.c.obj
+13/13.4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/13/13.4.c.obj
+.PHONY : 13/13.4.c.obj
 
-12/12.25.i: 12/12.25.c.i
-.PHONY : 12/12.25.i
-
-# target to preprocess a source file
-12/12.25.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.25.c.i
-.PHONY : 12/12.25.c.i
-
-12/12.25.s: 12/12.25.c.s
-.PHONY : 12/12.25.s
-
-# target to generate assembly for a file
-12/12.25.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/12.25.c.s
-.PHONY : 12/12.25.c.s
-
-12/s_gets.obj: 12/s_gets.c.obj
-.PHONY : 12/s_gets.obj
-
-# target to build an object file
-12/s_gets.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/s_gets.c.obj
-.PHONY : 12/s_gets.c.obj
-
-12/s_gets.i: 12/s_gets.c.i
-.PHONY : 12/s_gets.i
+13/13.4.i: 13/13.4.c.i
+.PHONY : 13/13.4.i
 
 # target to preprocess a source file
-12/s_gets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/s_gets.c.i
-.PHONY : 12/s_gets.c.i
+13/13.4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/13/13.4.c.i
+.PHONY : 13/13.4.c.i
 
-12/s_gets.s: 12/s_gets.c.s
-.PHONY : 12/s_gets.s
+13/13.4.s: 13/13.4.c.s
+.PHONY : 13/13.4.s
 
 # target to generate assembly for a file
-12/s_gets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/12/s_gets.c.s
-.PHONY : 12/s_gets.c.s
+13/13.4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/13/13.4.c.s
+.PHONY : 13/13.4.c.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_primer
-	@echo ... 12/12.25.obj
-	@echo ... 12/12.25.i
-	@echo ... 12/12.25.s
-	@echo ... 12/s_gets.obj
-	@echo ... 12/s_gets.i
-	@echo ... 12/s_gets.s
+	@echo ... 13/13.4.obj
+	@echo ... 13/13.4.i
+	@echo ... 13/13.4.s
 .PHONY : help
 
 
