@@ -1,0 +1,18 @@
+#include "myPow.h"
+#include "s_gets.h"
+int main (void)
+{
+	char hex[17];
+	char bin[65];
+	char * pthex, * ptbin;
+
+	printf("Please enter the number: \n");
+	s_gets(hex, 17);
+	for (int i = 0; i < 64; i ++)
+	{
+		bin[i] = 0;
+	}
+	for (int i = 0; i < 16; i ++)
+	{
+	}
+}

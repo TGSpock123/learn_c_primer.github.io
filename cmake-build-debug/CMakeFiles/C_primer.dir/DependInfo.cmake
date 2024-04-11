@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/13/13.4.c" "CMakeFiles/C_primer.dir/13/13.4.c.obj" "gcc" "CMakeFiles/C_primer.dir/13/13.4.c.obj.d"
+  "C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/13/test.c" "CMakeFiles/C_primer.dir/13/test.c.obj" "gcc" "CMakeFiles/C_primer.dir/13/test.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

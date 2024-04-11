@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io
+# Install script for directory: C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

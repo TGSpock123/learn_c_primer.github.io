@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io
+CMAKE_SOURCE_DIR = C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/C_primer.dir/depend.make
@@ -68,34 +68,34 @@ include CMakeFiles/C_primer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_primer.dir/flags.make
 
-CMakeFiles/C_primer.dir/13/13.4.c.obj: CMakeFiles/C_primer.dir/flags.make
-CMakeFiles/C_primer.dir/13/13.4.c.obj: CMakeFiles/C_primer.dir/includes_C.rsp
-CMakeFiles/C_primer.dir/13/13.4.c.obj: C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/13/13.4.c
-CMakeFiles/C_primer.dir/13/13.4.c.obj: CMakeFiles/C_primer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_primer.dir/13/13.4.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_primer.dir/13/13.4.c.obj -MF CMakeFiles\C_primer.dir\13\13.4.c.obj.d -o CMakeFiles\C_primer.dir\13\13.4.c.obj -c C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\13\13.4.c
+CMakeFiles/C_primer.dir/13/test.c.obj: CMakeFiles/C_primer.dir/flags.make
+CMakeFiles/C_primer.dir/13/test.c.obj: CMakeFiles/C_primer.dir/includes_C.rsp
+CMakeFiles/C_primer.dir/13/test.c.obj: C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/13/test.c
+CMakeFiles/C_primer.dir/13/test.c.obj: CMakeFiles/C_primer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_primer.dir/13/test.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_primer.dir/13/test.c.obj -MF CMakeFiles\C_primer.dir\13\test.c.obj.d -o CMakeFiles\C_primer.dir\13\test.c.obj -c C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\13\test.c
 
-CMakeFiles/C_primer.dir/13/13.4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/C_primer.dir/13/13.4.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\13\13.4.c > CMakeFiles\C_primer.dir\13\13.4.c.i
+CMakeFiles/C_primer.dir/13/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/C_primer.dir/13/test.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\13\test.c > CMakeFiles\C_primer.dir\13\test.c.i
 
-CMakeFiles/C_primer.dir/13/13.4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/C_primer.dir/13/13.4.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\13\13.4.c -o CMakeFiles\C_primer.dir\13\13.4.c.s
+CMakeFiles/C_primer.dir/13/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/C_primer.dir/13/test.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\13\test.c -o CMakeFiles\C_primer.dir\13\test.c.s
 
 # Object files for target C_primer
 C_primer_OBJECTS = \
-"CMakeFiles/C_primer.dir/13/13.4.c.obj"
+"CMakeFiles/C_primer.dir/13/test.c.obj"
 
 # External object files for target C_primer
 C_primer_EXTERNAL_OBJECTS =
 
-C_primer.exe: CMakeFiles/C_primer.dir/13/13.4.c.obj
+C_primer.exe: CMakeFiles/C_primer.dir/13/test.c.obj
 C_primer.exe: CMakeFiles/C_primer.dir/build.make
 C_primer.exe: CMakeFiles/C_primer.dir/linkLibs.rsp
 C_primer.exe: CMakeFiles/C_primer.dir/objects1.rsp
 C_primer.exe: CMakeFiles/C_primer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable C_primer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable C_primer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C_primer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +107,6 @@ CMakeFiles/C_primer.dir/clean:
 .PHONY : CMakeFiles/C_primer.dir/clean
 
 CMakeFiles/C_primer.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug C:\Users\TGSpock\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles\C_primer.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles\C_primer.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/C_primer.dir/depend
 

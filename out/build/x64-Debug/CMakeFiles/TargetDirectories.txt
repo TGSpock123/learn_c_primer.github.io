@@ -1,3 +1,3 @@
-C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/out/build/x64-Debug/CMakeFiles/C_primer.dir
-C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/out/build/x64-Debug/CMakeFiles/C_primer.dir
+C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

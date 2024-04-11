@@ -6,5 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(9)
 
 add_executable(
-        C_primer  "13/13.4.c"
-)
+        C_primer "13/test.c")

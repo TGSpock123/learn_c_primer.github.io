@@ -1,3 +1,0 @@
-C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/out/build/windows-default/CMakeFiles/edit_cache.dir
-C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/out/build/windows-default/CMakeFiles/C_primer.dir
-C:/Users/TGSpock/Documents/GitHub/learn_c_primer.github.io/out/build/windows-default/CMakeFiles/rebuild_cache.dir
