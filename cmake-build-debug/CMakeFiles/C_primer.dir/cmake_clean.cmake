@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_primer.dir/13/test.c.obj"
-  "CMakeFiles/C_primer.dir/13/test.c.obj.d"
+  "CMakeFiles/C_primer.dir/14/14.14.c.obj"
+  "CMakeFiles/C_primer.dir/14/14.14.c.obj.d"
+  "CMakeFiles/C_primer.dir/14/s_gets.c.obj"
+  "CMakeFiles/C_primer.dir/14/s_gets.c.obj.d"
   "C_primer.exe"
   "C_primer.exe.manifest"
   "C_primer.pdb"

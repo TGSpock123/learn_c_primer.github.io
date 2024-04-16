@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/13/test.c">
+		<Unit filename="C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/14/14.14.c">
+			<Option target="C_primer"/>
+		</Unit>
+		<Unit filename="C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/14/s_gets.c">
+			<Option target="C_primer"/>
+		</Unit>
+		<Unit filename="C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/14/s_gets.h">
 			<Option target="C_primer"/>
 		</Unit>
 		<Unit filename="C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/CMakeLists.txt">

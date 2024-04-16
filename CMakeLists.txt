@@ -1,9 +1,8 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.27)
 project(C_primer)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(9)
 
-add_executable(
-        C_primer "13/test.c")
+add_executable(C_primer 14/14.14.c 14/s_gets.c)
