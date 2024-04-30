@@ -1,5 +1,5 @@
 //被注释掉的是另一种可行操作;
-#include "s_gets.h"
+#include "../s_gets.h"
 #define SLEN 81
 
 char finame[SLEN], laname[SLEN];

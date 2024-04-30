@@ -1,4 +1,4 @@
-#include "s_gets.h"
+#include "../s_gets.h"
 #define MAXTITL 40
 #define MAXAUTL 40
 #define MAXBKS 10
@@ -63,7 +63,7 @@ int main (void)
     puts ("Here is the list of your books: ");
     for (index = 0; index < count; index ++)
     {
-      printf ("%s by %s: $%.2f \n", library[count].title, library[count].author, library[count].value);
+      printf ("%s by %s: $%.2f \n", library[index].title, library[index].author, library[index].value);
     }
     fwrite (&library[filecount], size, count - filecount, pbooks);
   }else

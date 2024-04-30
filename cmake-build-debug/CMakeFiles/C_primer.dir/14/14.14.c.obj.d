@@ -1,6 +1,6 @@
 CMakeFiles/C_primer.dir/14/14.14.c.obj: \
  C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\14\14.14.c \
- C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\14\s_gets.h \
+ C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/s_gets.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \

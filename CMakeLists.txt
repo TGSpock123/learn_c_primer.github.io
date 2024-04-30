@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(9)
 
-add_executable(C_primer 14/14.14.c 14/s_gets.c)
+add_executable(C_primer 14/14.31.c)

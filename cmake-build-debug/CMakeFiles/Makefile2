@@ -80,12 +80,12 @@ clean: CMakeFiles/C_primer.dir/clean
 CMakeFiles/C_primer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target C_primer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C_primer"
 .PHONY : CMakeFiles/C_primer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C_primer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C_primer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/C_primer.dir/rule

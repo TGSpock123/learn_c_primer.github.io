@@ -128,53 +128,29 @@ C_primer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/build
 .PHONY : C_primer/fast
 
-14/14.14.obj: 14/14.14.c.obj
-.PHONY : 14/14.14.obj
+14/14.31.obj: 14/14.31.c.obj
+.PHONY : 14/14.31.obj
 
 # target to build an object file
-14/14.14.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/14.14.c.obj
-.PHONY : 14/14.14.c.obj
+14/14.31.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/14.31.c.obj
+.PHONY : 14/14.31.c.obj
 
-14/14.14.i: 14/14.14.c.i
-.PHONY : 14/14.14.i
-
-# target to preprocess a source file
-14/14.14.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/14.14.c.i
-.PHONY : 14/14.14.c.i
-
-14/14.14.s: 14/14.14.c.s
-.PHONY : 14/14.14.s
-
-# target to generate assembly for a file
-14/14.14.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/14.14.c.s
-.PHONY : 14/14.14.c.s
-
-14/s_gets.obj: 14/s_gets.c.obj
-.PHONY : 14/s_gets.obj
-
-# target to build an object file
-14/s_gets.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/s_gets.c.obj
-.PHONY : 14/s_gets.c.obj
-
-14/s_gets.i: 14/s_gets.c.i
-.PHONY : 14/s_gets.i
+14/14.31.i: 14/14.31.c.i
+.PHONY : 14/14.31.i
 
 # target to preprocess a source file
-14/s_gets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/s_gets.c.i
-.PHONY : 14/s_gets.c.i
+14/14.31.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/14.31.c.i
+.PHONY : 14/14.31.c.i
 
-14/s_gets.s: 14/s_gets.c.s
-.PHONY : 14/s_gets.s
+14/14.31.s: 14/14.31.c.s
+.PHONY : 14/14.31.s
 
 # target to generate assembly for a file
-14/s_gets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/s_gets.c.s
-.PHONY : 14/s_gets.c.s
+14/14.31.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_primer.dir\build.make CMakeFiles/C_primer.dir/14/14.31.c.s
+.PHONY : 14/14.31.c.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_primer
-	@echo ... 14/14.14.obj
-	@echo ... 14/14.14.i
-	@echo ... 14/14.14.s
-	@echo ... 14/s_gets.obj
-	@echo ... 14/s_gets.i
-	@echo ... 14/s_gets.s
+	@echo ... 14/14.31.obj
+	@echo ... 14/14.31.i
+	@echo ... 14/14.31.s
 .PHONY : help
 
 

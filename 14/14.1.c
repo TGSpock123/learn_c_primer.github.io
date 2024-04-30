@@ -1,5 +1,5 @@
 //加强版;
-#include "s_gets.h"
+#include "../s_gets.h"
 #define MAXTITL 30
 #define MAXBK 100
 //声明结构;

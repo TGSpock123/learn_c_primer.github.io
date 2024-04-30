@@ -1,4 +1,4 @@
-#include "s_gets.h"
+#include "../s_gets.h"
 #define NLEN 30
 
 struct namect

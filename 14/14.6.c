@@ -1,4 +1,4 @@
-#include "s_gets.h"
+#include "../s_gets.h"
 #define SLEN 81
 
 struct namect

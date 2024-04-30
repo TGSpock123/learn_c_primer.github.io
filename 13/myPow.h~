@@ -1,3 +1,0 @@
-#include <stdio.h>
-double myPow(double x, long  n);
-
