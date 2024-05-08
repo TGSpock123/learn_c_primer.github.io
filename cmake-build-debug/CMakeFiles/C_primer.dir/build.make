@@ -68,29 +68,29 @@ include CMakeFiles/C_primer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_primer.dir/flags.make
 
-CMakeFiles/C_primer.dir/14/14.31.c.obj: CMakeFiles/C_primer.dir/flags.make
-CMakeFiles/C_primer.dir/14/14.31.c.obj: CMakeFiles/C_primer.dir/includes_C.rsp
-CMakeFiles/C_primer.dir/14/14.31.c.obj: C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/14/14.31.c
-CMakeFiles/C_primer.dir/14/14.31.c.obj: CMakeFiles/C_primer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_primer.dir/14/14.31.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_primer.dir/14/14.31.c.obj -MF CMakeFiles\C_primer.dir\14\14.31.c.obj.d -o CMakeFiles\C_primer.dir\14\14.31.c.obj -c C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\14\14.31.c
+CMakeFiles/C_primer.dir/15/15.14.c.obj: CMakeFiles/C_primer.dir/flags.make
+CMakeFiles/C_primer.dir/15/15.14.c.obj: CMakeFiles/C_primer.dir/includes_C.rsp
+CMakeFiles/C_primer.dir/15/15.14.c.obj: C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/15/15.14.c
+CMakeFiles/C_primer.dir/15/15.14.c.obj: CMakeFiles/C_primer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_primer.dir/15/15.14.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_primer.dir/15/15.14.c.obj -MF CMakeFiles\C_primer.dir\15\15.14.c.obj.d -o CMakeFiles\C_primer.dir\15\15.14.c.obj -c C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\15\15.14.c
 
-CMakeFiles/C_primer.dir/14/14.31.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/C_primer.dir/14/14.31.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\14\14.31.c > CMakeFiles\C_primer.dir\14\14.31.c.i
+CMakeFiles/C_primer.dir/15/15.14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/C_primer.dir/15/15.14.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\15\15.14.c > CMakeFiles\C_primer.dir\15\15.14.c.i
 
-CMakeFiles/C_primer.dir/14/14.31.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/C_primer.dir/14/14.31.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\14\14.31.c -o CMakeFiles\C_primer.dir\14\14.31.c.s
+CMakeFiles/C_primer.dir/15/15.14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/C_primer.dir/15/15.14.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\15\15.14.c -o CMakeFiles\C_primer.dir\15\15.14.c.s
 
 # Object files for target C_primer
 C_primer_OBJECTS = \
-"CMakeFiles/C_primer.dir/14/14.31.c.obj"
+"CMakeFiles/C_primer.dir/15/15.14.c.obj"
 
 # External object files for target C_primer
 C_primer_EXTERNAL_OBJECTS =
 
-C_primer.exe: CMakeFiles/C_primer.dir/14/14.31.c.obj
+C_primer.exe: CMakeFiles/C_primer.dir/15/15.14.c.obj
 C_primer.exe: CMakeFiles/C_primer.dir/build.make
 C_primer.exe: CMakeFiles/C_primer.dir/linkLibs.rsp
 C_primer.exe: CMakeFiles/C_primer.dir/objects1.rsp

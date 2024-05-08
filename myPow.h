@@ -19,7 +19,7 @@ double myPow(double x, long  n)
     {
       y *= x;
     }
-    else;
+
     x *= x;
     n /= 2;
   }
