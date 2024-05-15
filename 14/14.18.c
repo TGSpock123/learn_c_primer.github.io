@@ -1,3 +1,5 @@
+//函数指针使用方式;
+
 #include <stdio.h>
 #define ASD struct c \
 {                    \

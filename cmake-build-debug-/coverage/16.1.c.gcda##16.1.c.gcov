@@ -1,0 +1,17 @@
+        -:    0:Source:C:/Users/tgspo/Documents/GitHub/learn_c_primer.github.io/16/16.1.c
+        -:    0:Graph:C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug-\CMakeFiles\C_primer.dir\16\16.1.c.gcno
+        -:    0:Data:C:\Users\tgspo\Documents\GitHub\learn_c_primer.github.io\cmake-build-debug-\CMakeFiles\C_primer.dir\16\16.1.c.gcda
+        -:    0:Runs:1
+        -:    1:#include <stdio.h>
+function main called 1 returned 100% blocks executed 100%
+        1:    2:int main (void)
+        -:    3:{
+        -:    4:  int/**/fh/**/;
+        -:    5:
+        1:    6:  fh = 7;
+        1:    7:  printf ("%d\n", fh);
+        1:    7-block  0
+call    0 returned 1
+        -:    8:
+        1:    9:  return/**/0;
+        -:   10:}

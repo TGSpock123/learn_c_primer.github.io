@@ -1,4 +1,4 @@
-#include "../s_gets.h"
+#include "../s_gets1.h"
 #include <limits.h>
 
 int b2dcov (const char * pbin)

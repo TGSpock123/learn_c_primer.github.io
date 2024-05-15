@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\C_primer.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\C_primer.dir/objects.a @CMakeFiles\C_primer.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe --coverage -g -Wl,--whole-archive CMakeFiles\C_primer.dir/objects.a -Wl,--no-whole-archive -o C_primer.exe -Wl,--out-implib,libC_primer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C_primer.dir\linkLibs.rsp
