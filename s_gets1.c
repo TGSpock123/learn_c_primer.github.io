@@ -1,5 +1,10 @@
 #include "s_gets1.h"
 
+inline void eatline (void)
+{
+  while (getchar () != '\n');
+}
+
 char * s_gets (char * st, int n)
 {
   char * ret_val;
@@ -17,7 +22,7 @@ char * s_gets (char * st, int n)
       *st = '\0';
     }else
     {
-      while ((getchar() == '\n') == 0);
+      eatline ();
     }
   }else
   {
@@ -42,7 +47,7 @@ char * s_gets_1 (char * st, int n)
       *find = '\0';
     }else
     {
-      while (getchar() != '\n');
+      eatline ();
     }
   }
 
